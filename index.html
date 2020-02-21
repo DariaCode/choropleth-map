@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="choropleth-map" />
+    <link rel="apple-touch-icon" href="./img/icon.ico" />
+    <link rel="icon" href="./img/icon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <title>Scatterplot Graph</title>
+</head>
+
+<body>
+    <div class="choroplethMap">
+        <div id="title">United States Educational Attainment</div>
+        <div id="description">Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)</div>
+        <div class="map">
+            <div id='source'>Source: <a
+                    href='https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx'>USDA
+                    Economic Research Service</a></div>
+        </div>
+        <footer>
+            <div class="contact-links">
+                <a href="https://github.com/DariaCode/choropleth-map" target="_blank" rel="noopener"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/daria-vodzinskaia-2506b918b" target="_blank" rel="noopener"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.freecodecamp.org/dariacode" target="_blank" rel="noopener"><i
+                        class="fab fa-free-code-camp"></i></a>
+            </div>
+            <div id="footer">© 2019&nbsp;Daria Vodzinskaia</div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+/* ----------------------------------------------------
+Stylesheet for www.dariacode.dev / choropeleth map
+Updated: 02/20/2020
+Author: Daria Vodzinskaia
+Website: www.dariacode.dev
+-------------------------------------------------------  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cute Font', cursive;
+    background-color: #6D75CA;
+}
+
+body {
+    font-family: 'Cute Font', cursive;
+    text-align: center;
+}
+
+.counties {
+    fill: none;
+}
+
+
+.hover-county {
+    stroke-width: 2px;
+    stroke: darken(black, 15%);
+}
+
+
+.states {
+    fill: none;
+    stroke: white;
+    stroke-width: 3px;
+}
+
+.choroplethMap {
+    height: 750px;
+    width: 1000px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    position: relative;
+    box-shadow: 2px 2px 25px;
+}
+
+#title {
+    text-align: center;
+    font-size: 3em;
+}
+
+#description {
+    font-size: 2em;
+}
+
+#tooltip {
+    opacity: .8;
+    background: rgba(109, 117, 202, 0.3);
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+footer i {
+    padding: 0 15px 10px;
+    font-size: 1.2em;
+    color: white;
+}
+
+footer i:hover {
+    color: #9D4F9E;
+}
